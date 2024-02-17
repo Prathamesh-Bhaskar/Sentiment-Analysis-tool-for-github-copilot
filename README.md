@@ -22,11 +22,14 @@ This project performs sentiment analysis on news headlines scraped from CNBC and
    1. Run the main script main.py to perform sentiment analysis and generate visualizations:
     python main.py
   2.View the resulting DataFrame and visualizations.
-## File Structure
-sentiment-analysis-project/
-│
-├── main.py                # Main script for sentiment analysis
-├── requirements.txt       # List of required Python packages
-├── news_data.csv          # CSV file containing news headlines and sentiment analysis results
-├── README.md              # Project README file
-└── ...
+
+## Dependencies
+pandas
+requests
+beautifulsoup4
+transformers
+wordcloud
+spacy
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
